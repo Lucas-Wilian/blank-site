@@ -12,13 +12,13 @@ export const Header = () => {
         <C.Nav>
           <ul>
             <li>
-              <a>Portifolio</a>
+              <a href='/'>Portifolio</a>
             </li>
             <li>
-              <a>Community</a>
+              <a href='/'>Community</a>
             </li>
             <li>
-              <a>Blog</a>
+              <a href='/'>Blog</a>
             </li>
           </ul>
           <C.IconContainer>

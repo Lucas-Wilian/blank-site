@@ -66,6 +66,14 @@ export const Info = styled.div`
 
 export const Img = styled.div`
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: auto;
+    min-height: auto;
+    max-height: 300px;
+  }
 `;
 export const IconPerson = styled(Person)`
   height: 40px;

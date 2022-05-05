@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { MoonStars, Sun, Ghost, Github } from '../styles/Icons';
+import { MoonStars, Ghost, Github } from '../styles/Icons';
 
 export const Container = styled.div`
   height: 90px;

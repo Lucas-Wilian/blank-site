@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../button/Button';
+// import Button from '../button/Button';
 import * as C from './styles';
 
 export const Options = ({
@@ -9,6 +9,7 @@ export const Options = ({
   avatar,
   name,
   profission,
+  url,
 }) => {
   return (
     <C.Container>
@@ -31,7 +32,9 @@ export const Options = ({
         </C.User>
       </C.Nav>
 
-      <C.Img>....</C.Img>
+      <C.Img>
+        <img alt='img-post' src={url} />
+      </C.Img>
     </C.Container>
   );
 };
